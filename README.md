@@ -1,1 +1,1 @@
-# Projeto escolar de Metodologias Ágeis chamado Essêcias Fran
+# Projeto escolar de Metodologias Ágeis chamado Essências Fran
