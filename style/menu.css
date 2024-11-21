@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+}
+
+/*----estilização da Nav-Bar----*/
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #803E50;
+    padding: 10px 0 30px 1%;
+    box-shadow: 5px 0 0 #A67676;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .9s;
+}
+
+.logo_nav img { 
+    margin: 15px 0 0 0;
+    border-radius: 40%;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+nav.menu-lateral.expandir{
+    width: 210px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-expandir > i{
+    color: #fff;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+
+/* Hover */
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background-color: #622f3f;
+}
+
+ul li.item-menu:hover{
+    background: #622f3f;
+}
+
+/* Hover */
+
+
+ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: .9s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+/*----estilização da Nav-Bar------*/
